@@ -36,14 +36,11 @@
     border: none;
     border-radius: 10px;
     padding: .1rem;
-}
-
-.input-container button:hover {
-    background: rgba(255, 255, 255, 0.3);
+    transition: .8 ease-in-out;
 }
 
 .hide { 
-    display: none;
+    opacity: 0;
 }
 
 main {
@@ -53,7 +50,8 @@ main {
     padding: 16px 18px;
     display: flex;
     flex-direction: column;
-    animation: intro 2s ease-in-out;
+    transition: .4s;
+    opacity: 1;
 }
 
 main span {
