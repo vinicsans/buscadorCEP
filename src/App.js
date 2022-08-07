@@ -25,9 +25,8 @@ function App() {
       alert('Preencha seu CEP corretamente.');
       setInput("");
     }
-
   }
-
+  
   return (
     <div className="container">
 
@@ -48,8 +47,6 @@ function App() {
         <span>{cep.bairro}</span>
         <span>{cep.localidade} - {cep.uf}</span>
       </main>
-
-
     </div>
   );
 }
