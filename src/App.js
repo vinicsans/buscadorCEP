@@ -29,17 +29,12 @@ function App() {
   
   return (
     <div className="container">
-
       <h1 className="title">Buscar CEP</h1>
-
       <div className="input-container">
-
         <input type="text" placeholder="Digite seu CEP" onChange={(e) => setInput(e.target.value)}/>
-
         <button className="button-search" onClick={handleSearch}>
           <FiSearch size={24} color="#FFF"/>
         </button>
-
       </div>
 
       <main className={loaded}>
